@@ -5,7 +5,7 @@ class Employee:
         self.e_Id = e_Id
         self.dept = dept
 
-    def addEmployee(self):
+    def showEmployee(self):
         print("Hello my name is: ", self.name)
         print("My Employee Id is: ", self.e_Id)
         print("I belong to "+ self.dept+" department")
@@ -17,4 +17,4 @@ print(emp.name)
 print(emp.e_Id)
 print(emp.dept)
 
-emp.addEmployee()
+emp.showEmployee()
