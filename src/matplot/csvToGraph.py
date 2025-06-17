@@ -8,7 +8,7 @@ categories  =   df['Colors'].values
 qty         =   np.array(df['Quantity'].values)
 
 plt.bar(categories,qty, color="blue", edgecolor="black")
-
+#plt.hist(x)
 plt.xlabel("Colors")
 plt.ylabel("Quantity")
 

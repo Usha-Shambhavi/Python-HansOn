@@ -14,4 +14,4 @@ data = {
 df = pd.DataFrame(data)
 df.to_csv('colors.csv', index=False)
 
-
+# Read the US Sales data from csv and then plot a bar graph having Sales by month
