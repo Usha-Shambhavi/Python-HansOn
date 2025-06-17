@@ -1,10 +1,11 @@
-from Employee import Employee
+from Employee import Employee, Manager
 
 #Initializing all the employees in our org
 employees= {
     42423: Employee('Raj', 42423,'AI', 25000000),
     42427: Employee('Shasahk', 42427,'AI', 15000000),
-    42429: Employee('Vamsi', 42429,'AI', 13000000)
+    42429: Employee('Vamsi', 42429,'AI', 13000000),
+    4765: Manager('Nitin', 4765, 180000000, "Management", 4)
 }
 
 #Display total payroll for our org
